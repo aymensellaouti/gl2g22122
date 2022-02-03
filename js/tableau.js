@@ -3,3 +3,7 @@ function compareNumber(a, b) {
     return a - b;
 }
 console.log(tableau.sort(compareNumber));
+
+console.log(tableau.reduce(
+    (sum, current) => sum += current
+));
